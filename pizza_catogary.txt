@@ -1,0 +1,17 @@
+create table product(
+	id int AUTO_INCREMENT PRIMARY KEY,
+	description varchar(255),
+	image varchar(255),
+	price double
+);
+
+insert into product(description,image,price)values
+('Margherita Sushi Pizza','10.png',720.00),
+('Italian Cuisine Tomato Pizza','12.png',580.00),
+('Pepperoni Pizza','13.png',1300.00),
+('Hamburger Calzone Pizza','14.png',650.00),
+('Tomatos Margherita Pizza','15.png',1500.00),
+('California-Style,Sicilian Pizza','16.png',1120.00),
+('Chicken Dominator Pizza','18.png',750.00),
+('Maxican Salsa Pizza','19.png',800.00),
+('Meat Mania Pizza','20.png',990.00);
